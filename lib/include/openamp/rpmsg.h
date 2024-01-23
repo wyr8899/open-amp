@@ -357,7 +357,7 @@ void rpmsg_hold_rx_buffer(struct rpmsg_endpoint *ept, void *rxbuf);
  * @see rpmsg_hold_rx_buffer
  */
 void rpmsg_release_rx_buffer(struct rpmsg_endpoint *ept, void *rxbuf);
-
+ *                  
 /**
  * @brief Gets the tx buffer for message payload.
  *
